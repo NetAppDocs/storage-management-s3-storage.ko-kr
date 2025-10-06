@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task-s3-enable-data-services.html 
+keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, 
+summary: NetApp 콘솔에서 S3 버킷을 검색한 후에는 NetApp 데이터 서비스를 사용하여 백업, 계층화, 분류 및 데이터 동기화를 수행할 수 있습니다. 
+---
+= S3 버킷과 함께 NetApp 데이터 서비스 사용
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔에서 S3 버킷을 검색한 후에는 NetApp 데이터 서비스를 사용하여 백업, 계층화, 분류 및 데이터 동기화를 수행할 수 있습니다.
+
+* * NetApp Backup and Recovery*를 사용하여 온프레미스 ONTAP 및 Cloud Volumes ONTAP 시스템의 데이터를 S3 개체 스토리지로 백업하세요.
++
+시작하려면 시스템 페이지로 이동하여 온프레미스 ONTAP 또는 Cloud Volumes ONTAP 시스템을 Amazon S3 시스템으로 끌어다 놓으세요.
+
++
+https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["ONTAP 데이터를 Amazon S3 스토리지에 백업하는 방법에 대해 자세히 알아보세요."^] .
+
+* * NetApp Cloud Tiering*을 사용하여 온프레미스 ONTAP 클러스터의 비활성 데이터를 S3 개체 스토리지로 계층화합니다.
++
+시작하려면 시스템 페이지로 이동하여 온프레미스 ONTAP 시스템을 Amazon S3 시스템으로 끌어다 놓으세요.
+
++
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-aws.html["ONTAP 데이터를 Amazon S3 스토리지에 계층화하는 방법에 대해 자세히 알아보세요."^] .
+
+* * NetApp Copy and Sync*를 사용하여 S3 버킷과 데이터를 동기화합니다.
++
+시작하려면 시스템 페이지로 가서 소스 시스템을 대상 시스템으로 끌어다 놓으세요.  Amazon S3 시스템은 소스 또는 대상이 될 수 있습니다.
+
++
+Amazon S3 시스템을 선택하고 서비스 패널에서 *복사 및 동기화*를 클릭하여 S3 버킷과 데이터를 동기화할 수도 있습니다.
+
+
+
+https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["NetApp Copy and Sync 서비스에 대해 자세히 알아보세요"^] .
+
+* * NetApp 데이터 분류*를 사용하여 S3 버킷에서 개인 및 민감한 데이터를 스캔하세요.  NetApp 데이터 분류는 NetApp 솔루션용으로 생성되었는지 여부에 관계없이 계정의 모든 버킷을 스캔할 수 있습니다.
++
+시작하려면 Amazon S3 시스템을 선택하고 서비스 패널의 *분류* 섹션에서 적절한 옵션을 선택하여 S3 버킷 스캔을 시작하세요.
+
++
+https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["NetApp 데이터 분류 서비스에 대해 자세히 알아보세요"^] .
+
+

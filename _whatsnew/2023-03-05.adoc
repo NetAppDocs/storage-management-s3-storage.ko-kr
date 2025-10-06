@@ -1,0 +1,11 @@
+= BlueXP 에서 새 버킷을 추가하는 기능
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+
+
+=== BlueXP 에서 새 버킷을 추가하는 기능
+
+여러분은 꽤 오랫동안 BlueXP Canvas에서 Amazon S3 버킷을 볼 수 있었습니다.  이제 BlueXP 에서 직접 새로운 버킷을 추가하고 기존 버킷의 속성을 변경할 수 있습니다. https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["새로운 Amazon S3 버킷을 추가하는 방법을 알아보세요."] .

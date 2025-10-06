@@ -1,0 +1,39 @@
+---
+settings:
+  name: Amazon S3 storage
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Amazon S3 스토리지 문서
+    url: "/index.html"
+  - title: 릴리스 노트
+    url: "/whats-new.html"
+  - title: 시작하기
+    entries:
+    - title: Amazon S3 버킷 보기
+      url: "/task-viewing-amazon-s3.html"
+  - title: S3 버킷 관리
+    entries:
+    - title: S3 버킷 추가
+      url: "/task-add-s3-bucket.html"
+    - title: S3 버킷 설정 변경
+      url: "/task-change-s3-bucket-settings.html"
+    - title: S3 버킷과 함께 NetApp 데이터 서비스 사용
+      url: "/task-s3-enable-data-services.html"
+  - title: 지식과 지원
+    entries:
+    - title: 지원 등록
+      url: "/task-support-registration.html"
+    - title: 도움을 받으세요
+      url: "/task-get-help.html"
+  - title: 법적 고지 사항
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family

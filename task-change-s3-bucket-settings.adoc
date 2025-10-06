@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: task-change-s3-bucket-settings.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Amazon S3 시스템을 시스템 페이지에서 사용할 수 있는 경우 NetApp 콘솔에서 일부 버킷 속성을 직접 변경할 수 있습니다. 
+---
+= S3 버킷 설정 변경
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Amazon S3 시스템을 시스템 페이지에서 사용할 수 있는 경우 NetApp 콘솔에서 일부 버킷 속성을 직접 변경할 수 있습니다.
+
+버킷 이름, AWS 계정, 지역 또는 개체 잠금 설정은 변경할 수 없습니다.
+
+변경할 수 있는 버킷 속성은 다음과 같습니다.
+
+* 버킷의 모든 개체에 대해 버전 관리가 활성화되어 있는지 비활성화되어 있는지 여부입니다.
+* 버킷에 추가된 객체에 태그를 적용할 수 있습니다.
+* 버킷에 새로 추가된 객체를 암호화할지 여부와 암호화에 사용되는 옵션입니다.
+
+
+이 버킷 설정은 다음을 클릭하여 직접 변경할 수 있습니다.image:button-horizontal-more.gif["세 개의 점 더하기 버튼"] 양동이를 위해.
+
+image:screenshot-edit-amazon-s3-bucket.png["버킷 속성을 편집하기 위해 관리자 세부 정보 버튼을 선택하는 방법을 보여주는 스크린샷입니다."]
+
+
+
+== 버전 관리 설정 변경
+
+버전 관리를 사용하면 버킷에 객체의 여러 버전을 보관하여 실수로 삭제되거나 덮어쓴 객체를 복원할 수 있습니다.  버킷에 객체가 추가되면 이후 객체의 버전 설정을 변경할 수 있습니다.  버전 관리 설정을 변경해도 기존 개체의 값은 변경되지 않습니다.
+
+버킷을 생성할 때 개체 잠금을 활성화하지 않은 한, 새 버킷에서는 기본적으로 버전 관리가 비활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["Amazon S3 설명서에서 버전 관리에 대해 자세히 알아보세요."^] .
+
+이 기능을 활성화하면 버전 관리를 일시적 또는 영구적으로 중지할 때 "일시 중단" 상태를 선택할 수 있습니다.  버전 관리를 활성화한 후에는 비활성화할 수 없습니다.
+
+image:screenshot-amazon-s3-versioning.png["버킷의 버전 관리 설정을 변경하는 방법을 보여주는 스크린샷입니다."]
+
+
+
+== 버킷의 객체에 대한 태그를 추가하거나 변경합니다.
+
+태그는 리소스를 그룹화하여 애플리케이션, 환경, 지역, 클라우드 공급자 등을 식별하는 데 사용할 수 있는 메타데이터입니다.  태그는 태그 키와 태그 값으로 구성됩니다.  버킷에 태그를 추가하면 버킷에 객체가 추가될 때 태그가 객체에 적용됩니다.  태그와 태그 값을 변경하고 삭제할 수도 있습니다.
+
+NetApp 콘솔에서 생성된 새 버킷에서는 태그가 기본적으로 비활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Amazon S3 설명서에서 태그 지정에 대해 자세히 알아보세요."^] .
+
+image:screenshot-amazon-s3-tags.png["버킷에 새로운 태그 키/값 쌍을 추가하는 방법을 보여주는 스크린샷입니다."]
+
+태그를 추가한 후 *적용*을 클릭하여 변경 사항을 저장합니다.  더 많은 태그를 추가하려면 *새 태그 추가*를 클릭하세요.  버킷당 최대 10개의 태그를 추가할 수 있습니다.
+
+
+
+== 암호화 설정 변경
+
+서버 측 암호화를 사용하면 Amazon S3 대상에서 데이터를 암호화할 수 있습니다.  Amazon S3는 디스크에 데이터를 쓸 때 객체 수준에서 데이터를 암호화하고, 사용자가 데이터에 액세스할 때 암호를 해독합니다.  버킷에 객체를 추가하면 향후 객체에 사용되는 암호화 설정을 변경할 수 있습니다.
+
+NetApp 콘솔에서 생성된 새 버킷에서는 "Amazon S3 관리 키(SSE-S3)"를 사용하여 기본적으로 암호화가 활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Amazon S3 설명서에서 서버 측 암호화에 대해 자세히 알아보세요."^] .
+
+또는 "AWS Key Management Service 키(SSE-KMS)"를 사용하여 암호화를 활성화할 수 있습니다.  고객이 제공한 키(SSE-C)를 사용하여 암호화하는 것도 가능하지만, 이 기능은 콘솔 UI를 통해서는 사용할 수 없습니다. Amazon 인터페이스를 사용해야 합니다.
+
+image:screenshot-amazon-s3-encryption1.png["버킷에 사용되는 암호화 키 유형을 변경하는 방법을 보여주는 스크린샷입니다."]
+
+"AWS Key Management Service 키(SSE-KMS)"를 선택하는 경우 이미 생성한 AWS KMS 키를 선택하거나 AWS KMS 키 ARN(Amazon Resource Name)을 사용할 수 있습니다.
+
+image:screenshot-amazon-s3-encryption2.png["버킷에 대한 대체 암호화 설정을 선택하는 방법을 보여주는 스크린샷입니다."]
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["Amazon S3 설명서에서 AWS Key Management Service에 대해 자세히 알아보세요."^]그리고 약 https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["고객 키와 AWS 키 사용"^] .

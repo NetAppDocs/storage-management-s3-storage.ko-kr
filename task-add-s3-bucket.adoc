@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-add-s3-bucket.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, netapp console 
-summary: Amazon S3 시스템을 시스템 페이지에서 사용할 수 있는 경우 NetApp 콘솔에서 직접 추가 버킷을 추가할 수 있습니다. 
+summary: Amazon S3 시스템을 시스템 페이지에서 사용할 수 있는 경우 NetApp Console 에서 직접 추가 버킷을 추가할 수 있습니다. 
 ---
 = S3 버킷 추가
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Amazon S3 시스템을 시스템 페이지에서 사용할 수 있는 �
 
 
 [role="lead"]
-Amazon S3 시스템을 _시스템_ 페이지에서 사용할 수 있는 경우 NetApp 콘솔에서 직접 추가 버킷을 추가할 수 있습니다.
+Amazon S3 시스템을 _시스템_ 페이지에서 사용할 수 있는 경우 NetApp Console 에서 직접 추가 버킷을 추가할 수 있습니다.
 
 .단계
 . _시스템_ 페이지에서 Amazon S3 시스템을 두 번 클릭하여 _Amazon S3 버킷 개요_ 페이지를 보고 *버킷 추가*를 클릭합니다.
@@ -24,7 +24,7 @@ _버킷 추가_ 페이지가 표시됩니다.
 . _버킷 추가_ 페이지에서 버킷을 생성하는 데 필요한 정보를 입력하고 *적용*을 클릭합니다.
 +
 .. 버킷에 사용할 이름을 입력하세요.
-.. 버킷의 소유자가 될 AWS 계정을 선택하세요.  이는 콘솔 에이전트가 배포된 기본 계정이거나 https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["NetApp 콘솔에 추가한 다른 계정"^] .
+.. 버킷의 소유자가 될 AWS 계정을 선택하세요.  이는 콘솔 에이전트가 배포된 기본 계정이거나 https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["NetApp Console 에 추가한 다른 계정"^] .
 .. 버킷을 생성할 AWS 지역을 선택하세요.
 .. 선택적으로 WORM(Write-Once-Read-Many) 모델을 사용하여 버킷에서 S3 개체 잠금을 활성화하여 개체를 저장할 수 있습니다.  객체 잠금을 사용하려면 버킷을 생성할 때 해당 기능을 활성화해야 합니다.  개체 잠금을 활성화하면 버전 관리도 활성화됩니다. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Amazon S3 설명서에서 객체 잠금에 대해 자세히 알아보세요."^] .
 +

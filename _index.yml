@@ -1,9 +1,9 @@
 ---
 indexpage:
   title: Amazon S3 스토리지 설명서
-  summary: NetApp 콘솔을 사용하여 Amazon S3 스토리지를 사용해 보세요.
+  summary: NetApp Console 사용하여 Amazon S3 스토리지를 사용해 보세요.
   keywords: amazon s3, storage, bluexp, netapp console
-  lead: NetApp 콘솔을 사용하여 Amazon S3 스토리지를 사용해 보세요.
+  lead: NetApp Console 사용하여 Amazon S3 스토리지를 사용해 보세요.
   tiles:
   - title: 시작하기
     links:
@@ -19,13 +19,13 @@ indexpage:
       url: task-s3-enable-data-services.html
   - title: 더 많은 정보
     links:
-    - title: NetApp 콘솔 외부에서 관리하기 위한 Amazon S3 설명서
+    - title: NetApp Console 외부에서 관리하기 위한 Amazon S3 설명서
       url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
   - title: 블로그 및 커뮤니티
     links:
-    - title: NetApp 콘솔
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetApp 데이터 서비스
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/

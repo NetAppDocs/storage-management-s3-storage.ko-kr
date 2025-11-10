@@ -180,7 +180,6 @@
   <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">* NetApp Data Classification*를 사용하여 S3 버킷에서 개인 및 민감한 데이터를 스캔하세요.  NetApp Data Classification NetApp 솔루션용으로 생성되었는지 여부에 관계없이 계정의 모든 버킷을 스캔할 수 있습니다.</block>
   <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">시작하려면 Amazon S3 시스템을 선택하고 서비스 패널의 *분류* 섹션에서 적절한 옵션을 선택하여 S3 버킷 스캔을 시작하세요.</block>
   <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">NetApp Data Classification 서비스에 대해 자세히 알아보세요</block>
-  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> .</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetApp 기술 지원에 지원 사례를 개설하려면 먼저 NetApp Console 에 NetApp 지원 사이트 계정을 추가한 다음 지원을 위해 등록해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원 등록</block>
   <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">AWS에 콘솔 에이전트를 설치하면 NetApp Console 콘솔 에이전트가 설치된 AWS 계정에 있는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다.  Amazon S3 시스템이 시스템 페이지에 추가되어 이 정보를 볼 수 있습니다.</block>
@@ -219,4 +218,5 @@
   <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3 스토리지 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 노트</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
+  <block id="38e4a6ea124be3ae85f0c5c913bd80a7" category="paragraph"><block ref="b2391610bf85b5dbfe9880f4b5f5c77d" category="inline-link-rx"></block>.</block>
 </blocks>

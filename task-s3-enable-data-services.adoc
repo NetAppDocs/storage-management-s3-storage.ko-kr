@@ -46,6 +46,6 @@ https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["N
 시작하려면 Amazon S3 시스템을 선택하고 서비스 패널의 *분류* 섹션에서 적절한 옵션을 선택하여 S3 버킷 스캔을 시작하세요.
 
 +
-https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["NetApp Data Classification 서비스에 대해 자세히 알아보세요"^] .
+https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-s3.html["NetApp Data Classification 서비스에 대해 자세히 알아보세요"^].
 
 
